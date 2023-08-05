@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Practice Suite">
+    <test name="Test 1">
+<!--        <parameter name="browser" value="chrome"/>-->
+<!--        <groups>-->
+<!--            <run>-->
+<!--                <include name="regression"/>-->
+<!--            </run>-->
+<!--        </groups>-->
+        <classes>
+            <class name="org.example.saucelabtestcases.LoginTest"/>
+            <class name="org.example.saucelabtestcases.PurchaseProductTest"/>
+        </classes>
+
+<!--    <test name="Test 1">-->
+<!--        <parameter name="browser" value="chrome"/>-->
+<!--        <classes>-->
+<!--            <class name="org.example.tests.SeleniumGrid"/>-->
+<!--        </classes>-->
+<!--    </test> &lt;!&ndash; Test &ndash;&gt;-->
+
+<!--    <test name="Test 2">-->
+<!--        <parameter name="browser" value="MicrosoftEdge"/>-->
+<!--        <classes>-->
+<!--            <class name="org.example.tests.SeleniumGrid"/>-->
+<!--        </classes>-->
+
+    </test>
+</suite> <!-- Suite -->
