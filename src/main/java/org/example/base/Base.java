@@ -84,7 +84,7 @@ public class Base {
     public String takeMyScreenshot(WebDriver driver) throws IOException {
         LocalTime time = LocalTime.now();
         File src = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-        File dest = new File("./myScreenshot"+time.toString().replaceAll("[:,.]","")+".png");
+        File dest = new File("screenshots/myScreenshot"+time.toString().replaceAll("[:,.]","")+".png");
         FileUtils.copyFile(src,dest);
         return dest.getAbsolutePath();
     }
